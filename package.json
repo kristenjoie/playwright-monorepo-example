@@ -1,0 +1,25 @@
+{
+  "name": "playwright-monorepo-example",
+  "version": "1.0.0",
+  "description": "Example of monorepo with Playwright test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristenjoie/playwright-monorepo-example.git"
+  },
+  "author": "Kristen Joie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristenjoie/playwright-monorepo-example/issues"
+  },
+  "homepage": "https://github.com/kristenjoie/playwright-monorepo-example#readme",
+  "dependencies": {
+    "@playwright/test": "^1.25.1"
+  },
+  "workspaces": [
+    "./packages/*"
+  ]
+}

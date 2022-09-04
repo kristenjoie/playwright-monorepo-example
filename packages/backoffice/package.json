@@ -1,0 +1,13 @@
+{
+  "name": "@site/backoffice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "echo": "echo 'Running test for @site/backoffice'",
+    "test": "playwright test"
+  },
+  "author": "Kristen Joie",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
