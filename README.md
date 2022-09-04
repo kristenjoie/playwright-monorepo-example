@@ -1,0 +1,1 @@
+# playwright-monorepo-example
